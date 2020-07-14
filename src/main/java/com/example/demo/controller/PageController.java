@@ -15,10 +15,10 @@ public class PageController {
         return "hell0 woefesn!";
     }
 
-    @RequestMapping("index")
+    @RequestMapping("/index")
     public String index(){
         System.out.println("你好你好");
-        return "index";
+        return "/index";
     }
 
 }
