@@ -17,6 +17,7 @@ public class PageController {
 
     @RequestMapping("index")
     public String index(){
+        System.out.println("你好你好");
         return "index";
     }
 
